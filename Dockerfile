@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM postgres:11.6-alpine
 
 ENV PGHOST='localhost'
 ENV PGPORT='5432'
